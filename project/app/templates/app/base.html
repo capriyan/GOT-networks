@@ -15,7 +15,7 @@
 </head>
 <body>
     <nav class="navbar  navbar-expand-md bg-faded justify-content-center navbar-dark bg-black">
-        <a href="/" class="navbar-brand d-flex w-50 mr-auto">PYCHAN</a>
+        <a href="/" class="navbar-brand d-flex w-50 mr-auto">NETWORK-GOT</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
             <span class="navbar-toggler-icon"><i class="fas fa-ellipsis-v"></i></span>
         </button>
@@ -25,24 +25,20 @@
                     <a class="nav-link " href="{% url 'app-home' %}">Home</a>
                 </li>
                 <li class="nav-item mr-5">
-                    <a class="nav-link " href="{% url 'app-about' %}">About</a>
+                    <a class="nav-link " href="{% url 'app-characters' %}">Characters</a>
                 </li>
                 <li class="nav-item mr-5">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link " href="{% url 'app-occurrences' %}">Occurrences</a>
+                </li>
+                <li class="nav-item mr-5">
+                    <a class="nav-link " href="{% url 'app-about' %}">About</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        a</a>
+                    <a class="nav-link" href="#">Help</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        b</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">c</a>
-                </li>
+                
             </ul>
         </div>
     </nav>
